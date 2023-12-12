@@ -44,4 +44,4 @@ def valid_control(control_digit, partial_cnp):
     return control == int(control_digit)
 
 
-print(cnp_valid("5010606511606"))
+print(cnp_valid("5010803531605"))
