@@ -43,5 +43,4 @@ def valid_control(control_digit, partial_cnp):
         control = sum % 11
     return control == int(control_digit)
 
-
 print(cnp_valid("5010803531605"))
